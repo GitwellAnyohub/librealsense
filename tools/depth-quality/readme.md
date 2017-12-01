@@ -54,15 +54,3 @@ _D'<sub>i</sub>_ - Distance from the rotated _D<sub>i</sub>_ coordinate to the G
 _GT_ - Ground Truth distance to the wall (mm)  
 ![](./res/z_accuracy_d_rotated.gif)  
 ![](./res/z_accuracy_percentage.gif)
-<!---
-Math expressions generated with
-http://www.numberempire.com/texequationeditor/equationeditor.php
-{D}_{i}=\frac{BL\times FL}{{Z}_{i}}  
-{DP}_{i}=\frac{BL\times FL}{{ZP}_{i}}  
-RMS = \sqrt{\frac{\sum_{1}^{n}{\left({D}_{i} -{DP}_{i}\right)}}{n}^{2}}
-AVG = \frac{\sum_{1}^{n}{\left({Dist}_{i}\right)}}{n}
-STD = \sqrt{\frac{\sum_{1}^{n}{\left({Dist}_{i}\right)}}{n}^{2}}  
-ACC = 100 \times median(\frac{\sum_{1}^{n}{\left({Z}_{i}\right - GT)}}{GT})
-{D'}_{mm}={D}_{i} -{Planes Offset}_{mm}
-Z-Accuracy = 100 \times median(\frac{\sum_{1}^{n}{\left({D'}_{i}\right - GT)}}{GT})
---->
